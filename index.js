@@ -34,7 +34,7 @@ function showmovies(datos) {
         </div>
 
         `
-        const contenido = document.querySelector('.contenido').appendChild(movieHTML)
+        document.querySelector('.contenido').appendChild(movieHTML)
     });
     
 }
